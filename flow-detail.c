@@ -2,7 +2,7 @@
 *2014-12-26  add mv detail file to IPALL_NOTOP_PATH
 *2015-09-02  change file name SQLDEL_ip* -> SQLDETAIL_ip* , SQLDEL_app* -> SQLDETAIL_app*
 *2016-06-22  change ipv4 -> ipv6
-*
+*add aaaa
 */
 #include "flow-detail.h"
 
@@ -406,7 +406,7 @@ int ft_get_flow(char *filename){
 
 /********************************************************************
 * Function: ft_app_sort   
-* Description: Analysis application(APP) data£¬save data into the struct array
+* Description: Analysis application(APP) dataÂ£Â¬save data into the struct array
 * Input: struct flow pdu
 * Output: 
 * Return: void
@@ -1203,7 +1203,7 @@ void ft_app_clean(){
 
 /********************************************************************
 * Function: ft_ip_sort   
-* Description: Analysis ip data£¬save data into the struct array
+* Description: Analysis ip dataÂ£Â¬save data into the struct array
 * Input: struct flow pdu
 * Output: 
 * Return: void
